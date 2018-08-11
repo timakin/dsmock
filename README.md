@@ -96,9 +96,9 @@ Then, call that setup func on each tests. Unless a volume of fixture is not huge
 
 func TestGetUsersHandler(t *testing.T) {
     ctx, instance, cleanup := testutils.Setup(t)
-	defer cleanup()
+    defer cleanup()
 	
-	//
+    //
     // integration tests with fixtures.
     // 
 }
